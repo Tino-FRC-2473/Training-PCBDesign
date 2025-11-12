@@ -41,3 +41,25 @@ Resistors help restrict the flow of electrical current in the circuit. When ther
 In the schematic, resistors are labeled starting with the letter R. Notice that the value of the resistor in Ohms is written underneath the identifier. Since resistor values can get very large, the value is written with SI prefixes. So a 1k resistor has a value of 1 kiloOhm, or 1,000 Ohms. A 1M resistor has a value of 1 MegaOhm, or 1,000 kiloOhms, or 1,000,000 Ohms.
 
 ## Capacitors
+
+![Capacitor symbol](images/CapacitorSymbol.png)
+
+Capacitors are components that can store small amounts of electrical energy. They are often used to smooth out voltage fluctuations or filter out fast changing signals. and control how electrical energy moves over time. Since the voltage across a capacitor changes in a very predictable way depending on how much charge is stored in it, we can construct timing circuits by charging and discharging capacitors through carefully chosen resistors. In this circuit, the two capacitors are used to control how fast the LED's blink on and off.
+
+The ability of a capacitor to store charge is called capacitance, measured in Farads (F). Since 1 Farad is an extremely large amount of capacitance, most circuit components are measured in microFarads (μF) or nanoFarads (nF). Recall that "micro" represents 1E-6, and "nano" represents 1E-9. So 1F = 1,000,000 µF = 1,000,000,000 nF
+
+In the schematic, capacitors are labeled starting with the letter C. Depending on the type of capacitor, the schematic symbol may look slightly different. Notice that the symbol in our circuit has one curved line, with a small "+" on one side. This represents a polarized capacitor, where one side must be at a higher voltage than the other. Make sure you install the capacitor in the right direction! If the capacitor is drawn with two straight lines, this is a non-polarized capacitor where the direction doesn't matter.
+
+## Diodes and LEDs
+
+![LED Symbol](images/LEDSymbol.png)
+
+Diodes are made of special semiconductor materials that allow them to only conduct electricity in one direction. Notice how the diode symbol looks like an arrow pointing to a line. Current can only flow in the direction the arrow is pointing. Furthermore, the voltage across a diode is always the same regardless of how much current flows through it. This is called the diode's forward voltage, and it depends on how the diode is constructed.
+
+In this circuit, we are using a special class of diodes, the Light Emitting Diode (LED). As the name implies, these diodes light up when current flows through them. In the schematic symbol, the little arrows coming out of the diode show that light will come out of this LED. The brightness of the light depends on how much current is flowing through, but there's an upper limit on how much current you can push into an LED before it burns out. This is why you should always have a resistor or some other way to control the current through the LED.
+
+## Transistor
+
+![Transistor Symbol](images/LEDSymbol.png)
+
+
