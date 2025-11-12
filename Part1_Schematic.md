@@ -60,6 +60,6 @@ In this circuit, we are using a special class of diodes, the Light Emitting Diod
 
 ## Transistor
 
-![Transistor Symbol](images/LEDSymbol.png)
+![Transistor Symbol](images/TransistorSymbol.png)
 
 
