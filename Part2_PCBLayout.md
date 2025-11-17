@@ -22,6 +22,8 @@ In the top menu bar, press the "Update PCB from Schematic" button, then click "U
 
 Let's start arranging the components into something more organized. Left click to select a component, and make sure the entire component is highlighted (not just the labels). You can click and drag to simply move the component around. Hit "R" to rotate a component. Start by spacing out the components a bit and rotating them so that we can clearly tell apart the left and right half of the circuit.
 
+You might find it helpful to change the grid spacing from the rightmost dropdown in the top menu bar to help ensure everything is nicely aligned. I recommend sticking with mm grids, since the maximum size of the board is 100x100mm.
+
 # Board Edge
 
 Now let's draw the shape of our PCB. In the right sidebar, select the yellow Edge.Cuts layer. You should see the yellow rounded rectangle shape from the template pop to the front. You can press "H" to hide the other layers and make this more visible. The edge is defined by line segments and curves. You can reposition the existing elements by clicking to highlight, then dragging the endpoints around. In the right sidebar, there are buttons for "Draw Lines" and "Draw Arcs" you can use to add new line segments and arcs. To draw a line, select the draw line tool, then click to start a line. Clicking again will add a line segment. Double clicking or clicking on the starting point will end the line. For arcs, click to define the arc center. Next click to define the radius. Finally move around the center to define the angle of the arc and click to complete the arc.
