@@ -32,6 +32,6 @@ If you prefer to design your board shape in a different program, you can import 
 
 # Silkscreen Graphics
 
-Once you have your board edge drawn and the components placed where you want them, you can add some decorations on the silkscreen layer. Select the F.Silkscreen layer. You can use the Text tool in the right sidebar to add text objects. You can also import SVG graphics to add more complex designs to the silkscreen layer. Don't forget you can also draw on the B.Silkscreen layer to add designs to the back of your board!
+Once you have your board edge drawn and the components placed where you want them, you can add some decorations on the silkscreen layer. Select the F.Silkscreen layer. You can use the Text tool in the right sidebar to add text objects. You can also import SVG graphics to add more complex designs to the silkscreen layer. There is also an Image Converter tool in the project viewer menu that lets you copy a bitmap image and paste it into your PCB. Don't forget you can also draw on the B.Silkscreen layer to add designs to the back of your board!
 
 To preview your design, select View->3D Viewer to open a 3D rendering of your board design. This is a good way to check your component placements and verify that your graphics are drawn correctly.
