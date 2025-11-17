@@ -28,6 +28,12 @@ Finally, you'll set at the top and bottom there are connections to an upward poi
 
 These power symbols are used to mark connections to common reference voltages, in this case the positive and negative power connections to the 9V battery. Ground or `GND` is used to denote 0V, which is the point all the other voltages in the circuit are measured from. Note that all symbols of the same voltage are connected together, so the +9V is connected to both the main circuit and the positive terminal of the battery to the right. This helps to avoid drawing lots of wires everywhere we need power and ground, making the schematic easier to read.
 
+# Editing the Schematic
+
+To move the schematic view, you can use two-finger scroll on a laptop trackpad or the scroll wheel and middle-mouse drag with a mouse. Left click on a component to select it. You can then drag it around to reposition the component. Notice that the existing connections stay connected. You can right click on the component to bring up a menu of other options. Try selecting "Properties..." or press the default shortcut "E".
+
+This will bring up the properties dialog where you can edit the details of the particular component you have selected. In particular, notice the Value field where you can define the component value and the Datasheet field with a link to the website where you can find more info about the component.
+
 # Circuit Components
 
 Now let's go over what components we'll be using in this circuit.
@@ -62,4 +68,19 @@ In this circuit, we are using a special class of diodes, the Light Emitting Diod
 
 ![Transistor Symbol](images/TransistorSymbol.png)
 
+Transistors are semiconductor devices that allow a small electric current to control a much larger electric current. In the schematic, transistors have identifiers starting with the letter "Q". Notice how there are three connections to this transistor. The top connection is called the Collector, the middle connection is called the Base, and the bottom connection is the Emitter. The current between the base and emitter acts as a small diode. However, when the voltage between the base and emitter exceeds the forward voltage and the connection starts conducting, this also turns on the connection between collector and emitter.
 
+Furthermore, the current allowed between the collector and emitter is a large multiple of the current flowing between the base and emitter, usually around 100x for the basic transistors we are using. Thus, a small base-emitter current can switch a much larger collector-emmitter current on and off. The transistor can also be used as an amplifier, effectively multiplying the base-emitter current by the 100x gain of the transistor. In this circuit, the transistor allows the small currents flowing through the capacitor-resistor networks to switch the entire strings of LEDs on and off.
+
+# Finishing steps
+
+There is one last step before this schematic is finished, you need to choose what color LEDs you want. Here are the LEDs we have in stock:
+
+| Color | URL |
+| ----- | --- |
+| Red | https://www.digikey.com/en/products/detail/inolux/INL-5AR30/7604627 |
+| Yellow | https://www.digikey.com/en/products/detail/inolux/INL-5AY30/7604629 |
+
+1. Edit the LED components on each side of the circuit and fill in the color you want as the Value field. Copy the corresponding link into the "Datasheet" field.
+2. What is the total cost of the components to make one copy of your board? Look at the price charts on the websites linked for each component to find the unit cost for each component. Show your work.
+3. Your design has gone viral and now you need to make 1,000 copies of your board. What is the component cost of each board, taking the bulk discounts into account?
